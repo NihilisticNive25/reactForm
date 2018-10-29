@@ -1,0 +1,243 @@
+.labelCSS{
+  text-align: left;
+  font-size: .875rem;
+  line-height: 1.5;
+  font-weight: 600;
+  display: block;
+}
+
+.tl{
+  text-align: left;
+}
+
+.activeBtn{
+  margin: 1rem;
+  font-size: .875rem;
+  padding: .5rem;
+      padding-left: 1rem;
+    padding-right: 1rem;
+    
+    background-color: #357edd;
+    color: #fff;
+    display: inline-block;
+
+}
+
+.inactiveBtn{
+    margin: 1rem;
+    font-size: .875rem;
+    
+    margin: 1rem;
+
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    color: #555;
+    text-decoration: none;
+    -webkit-transition: color .15s ease-in;
+    transition: color .15s ease-in;
+    border-style: solid;
+    border-width: 1px;
+
+}
+<style>…</style>
+.dib {
+    display: inline-block;
+}
+<style>…</style>
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+.timeRow{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.ma3{
+  margin: 1rem;
+  }
+
+.subColumn {
+    font-size: .875rem;
+
+    text-align: left;
+
+    margin-bottom: .5rem;
+
+    font-weight: bold;
+
+    display: block;
+    }
+.readOnly{
+  text-align: left;
+  display: block;
+  font-family: inherit;
+    font-size: 80%;
+}
+
+.subRows{
+    font-family: inherit;
+    font-size: 100%;
+     display: table-row;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+.tableRow{
+  
+      display: table-row;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+         
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.black-60 {
+    color: rgba( 0, 0, 0, .6 );
+}
+
+.inputStyle{
+  font-family: inherit;
+    font-size: 100%;
+    line-height: 0.15;
+     margin-bottom: .5rem;
+          padding: .5rem;
+          display: block;
+          border-color: rgba( 0, 0, 0, .2 );
+          border-style: solid;
+    border-width: 1px;
+    background-color: white; 
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+        box-sizing: border-box;
+}
+
+.tableColumn{
+
+max-width: 30em;
+
+}
+
+.table{
+  table-layout: fixed;
+    width: 100%;
+    display: table;
+}
+.linkBtn{
+    text-align: left;
+        color: #357edd;
+        font-weight: bold;
+        display: inline-block;
+        opacity: 1;
+    -webkit-transition: opacity .15s ease-in;
+    transition: opacity .15s ease-in;
+        font-size: 1rem;
+            cursor: pointer;
+            margin: 0px;
+}
+
+.title{
+  text-align: left;
+  line-height: 1.5;
+  display: block;
+      font-size: 1.5rem;
+}
+
+.inputBorder{
+  border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    line-height: 0.15;
+}
+
+.textareaStyle{
+    max-height: 150px;
+    height: 150px;
+        margin-bottom: .5rem;
+        padding: .5rem;
+            display: block;
+            border-radius: .25rem;
+                border-style: solid;
+    border-width: 1px;
+        border-color: rgba( 0, 0, 0, .2 );
+        font-family: inherit;
+    font-size: 100%;
+        box-sizing: border-box;
+}
+
+
+.w-90 { width: 90%; }
+.w-94 { width: 94%; }
+.w-100 { width: 100%; }
+
+@media screen and (min-width: 30em) {
+ .w-40-ns { width: 40%; }
+ .w-50-ns { width: 50%; }
+ .w-70-ns { width: 70%; }
+ .w-75-ns { width: 75%; }
+ .w-80-ns { width: 80%; }
+ .w-90-ns { width: 90%; }
+ .w-100-ns { width: 100%; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+ 
+ .w-40-m { width: 40%; }
+ .w-50-m { width: 50%; }
+ .w-60-m { width: 60%; }
+ .w-70-m { width: 70%; }
+ .w-80-m { width: 80%; }
+ .w-90-m { width: 90%; }
+ .w-100-m { width: 100%; }
+
+}
+@media screen and (min-width: 60em) {
+
+ .w-40-l { width: 40%; }
+ .w-50-l { width: 50%; }
+ .w-70-l { width: 70%; }
+ .w-80-l { width: 80%; }
+ .w-90-l { width: 90%; }
+ .w-100-l { width: 100%; }
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
